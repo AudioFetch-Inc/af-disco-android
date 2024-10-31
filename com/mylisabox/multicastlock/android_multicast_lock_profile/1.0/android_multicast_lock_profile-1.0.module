@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mylisabox.multicastlock",
+    "module": "android_multicast_lock_profile",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "profileVariantProfileApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-235db911ba279722f5e685f38b0ed30fa7e8570a"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "android_multicast_lock_profile-1.0.aar",
+          "url": "android_multicast_lock_profile-1.0.aar",
+          "size": 4954,
+          "sha512": "e97feee77efd9bf0f227976690ebca152d1f8baae1ecd63e695ee67f6d07fc852ca298b4b061c9eba3fe33afefa8f200308ae230ec3ae173c76de6b26ed7d05b",
+          "sha256": "8a11986996ee1c4f4718ae783057996b524cd8d5f05e02e4a5c8dc9683c054fe",
+          "sha1": "4ecdfb54265f01ac09aa374c9cb5749c791baf5e",
+          "md5": "51a011ea88bda34a1848a3f4ecb986a7"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-235db911ba279722f5e685f38b0ed30fa7e8570a"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "android_multicast_lock_profile-1.0.aar",
+          "url": "android_multicast_lock_profile-1.0.aar",
+          "size": 4954,
+          "sha512": "e97feee77efd9bf0f227976690ebca152d1f8baae1ecd63e695ee67f6d07fc852ca298b4b061c9eba3fe33afefa8f200308ae230ec3ae173c76de6b26ed7d05b",
+          "sha256": "8a11986996ee1c4f4718ae783057996b524cd8d5f05e02e4a5c8dc9683c054fe",
+          "sha1": "4ecdfb54265f01ac09aa374c9cb5749c791baf5e",
+          "md5": "51a011ea88bda34a1848a3f4ecb986a7"
+        }
+      ]
+    }
+  ]
+}

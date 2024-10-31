@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mylisabox.multicastlock",
+    "module": "android_multicast_lock_release",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-235db911ba279722f5e685f38b0ed30fa7e8570a"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "android_multicast_lock_release-1.0.aar",
+          "url": "android_multicast_lock_release-1.0.aar",
+          "size": 4950,
+          "sha512": "913778cdc09db7550b471d8c11aad9b057532a4afe77abb1c8f9284fb3e3b1bf8553a0d3da31d901c61f2e0716abd6dd07a4ec8a6069932cfc9a0bf03f5d2130",
+          "sha256": "984f900c128e13dd53a8eb033d8518002ab090f1ce6297abd85827b789e2e454",
+          "sha1": "3fb5bd78217066b6c4d8853c4b9df3d86387c2b0",
+          "md5": "5effb9041e5f5966044e0a9bb868cf8f"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-235db911ba279722f5e685f38b0ed30fa7e8570a"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "android_multicast_lock_release-1.0.aar",
+          "url": "android_multicast_lock_release-1.0.aar",
+          "size": 4950,
+          "sha512": "913778cdc09db7550b471d8c11aad9b057532a4afe77abb1c8f9284fb3e3b1bf8553a0d3da31d901c61f2e0716abd6dd07a4ec8a6069932cfc9a0bf03f5d2130",
+          "sha256": "984f900c128e13dd53a8eb033d8518002ab090f1ce6297abd85827b789e2e454",
+          "sha1": "3fb5bd78217066b6c4d8853c4b9df3d86387c2b0",
+          "md5": "5effb9041e5f5966044e0a9bb868cf8f"
+        }
+      ]
+    }
+  ]
+}
